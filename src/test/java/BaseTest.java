@@ -16,10 +16,10 @@ public class BaseTest {
         readConfig();
     }
 
-    private void readConfig(){
+    private void readConfig() {
         properties = new Properties();
         try {
-            FileInputStream ip= new FileInputStream("config.properties");
+            FileInputStream ip = new FileInputStream("c:\\java\\qa3\\src\\main\\resources\\config.properties");
             properties.load(ip);
         } catch (FileNotFoundException e) {
             logger.error(e.getMessage());
