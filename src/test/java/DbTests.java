@@ -9,10 +9,10 @@ import org.junit.Test;
 import java.sql.*;
 
 
-public class SQLBaseTest extends BaseTest {
+public class DbTests extends BaseTest {
     private DataBaseController dataBaseController;
 
-    public SQLBaseTest() {
+    public DbTests() {
         super();
 
         //todo Create a feature with test - Before and after steps using cucumber – same as in Task 3
